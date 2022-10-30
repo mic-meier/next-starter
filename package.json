@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|jsx|ts|tsx|json)\"",
     "commit": "cz"
   },
   "dependencies": {
@@ -20,7 +21,8 @@
     "@commitlint/cz-commitlint": "^17.1.2",
     "commitizen": "^4.2.5",
     "eslint": "8.26.0",
-    "eslint-config-next": "13.0.0"
+    "eslint-config-next": "13.0.0",
+    "prettier": "^2.7.1"
   },
   "config": {
     "commitizen": {
